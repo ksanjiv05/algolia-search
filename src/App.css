@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 24%;
+  margin-right: 24%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+.ais-SearchBox-input {
+  width: 100%;
+  height: 39px;
+  font-size: 17px;
+}
+
+.ais-Hits-item img {
+  margin-right: 1em;
+  width: 42px;
+}
+.hit-image {
+ 
+  /* height: 9px; */
+  float: left;
+}
+.ais-Highlight-highlighted {
+  font-size: 17px;
+}
+.heading {
+  font-size: 15px;
+}
+.ais-SearchBox-input {
+  padding-left: 28px;
+}
+.text {
+  display: block;
+  width: 93%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ais-Hits-item {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.ais-Highlight-nonHighlighted {
+  font-size: 17px;
+}
+.update {
+  width: 100%;
+  height: 59px;
+  background-color: #7cb5b5;
+  font-size: xx-large;
+  font-family: cursive;
+  border-radius: 7px;
+  color: #3272a0;
+}
+.msg {
+  background-color: #09af48;
+  padding: 11px;
+  color: aliceblue;
+}
+.close {
+  float: right;
+  background-color: #ff1616;
+  border-radius: 5px;
+  color: white;
+}
+.proj {
+  line-height: 5px;
+}
+.proj-content {
+  width: 95%;
+  background-color: aliceblue;
+  float: right;
+  font-size: 17px;
+}
+.login {
+  width: 100%;
+  padding: 10%;
+}
+
+.tip {
+  background-color: #a21818;
+  color: #f9f9f9;
+  border-radius: 7px;
+  display: inline;
+  padding: 4px;
+}
+.home {
+  width: 80%;
+  /* border-color: red; */
+  height: 317px;
+  background-color: #f9f9f9;
+  border-radius: 7px;
+  border: 1px solid;
+  margin: 10%;
+  padding: 5%;
+}
+.home-header {
+  font-size: 27px;
+  margin-left: 49px;
+  font-family: cursive;
+}
+.App-home {
+  list-style: none;
+}
+.custom-btn {
+  background-color: #e3e5e6;
+  margin: 15px;
+}
+.home-link {
+}
+.home-image {
+  width: 78px;
+  margin-left: 207px;
+}
+.button-icon {
+  width: 21px;
+  margin-left: 10px;
+}
+.hit-custom-image{
+  float: left;
+  width: 40px;
+}
+.hit-custom-name{
+  float: left;
+  padding-left: 16px;
+}
+.margin-set{
+  text-decoration: none;
+  color: #4b4a54eb;
+}
+.search-margin{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.ais-SearchBox {
+ margin:0;
+}
+.searchbox-margin {
+  height: 68px;
+}
+.ais-Hits-item{
+    margin-top: 0rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    /* width: calc(25% - 1rem); */
+    border: 0px;
+    box-shadow: 0 2px 2px 0 #e3e5ec;
+}

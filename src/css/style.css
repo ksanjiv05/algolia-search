@@ -1,0 +1,101 @@
+.search-margin {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.image {
+  height: 50px;
+}
+.button {
+  border-radius: 10px;
+  border-style: double;
+  border: 1px solid rgb(214, 214, 214);
+  height: 35px;
+  width: 455px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 20px;
+}
+.home-margin {
+  border-radius: 12px;
+  border: 1px solid rgb(214, 211, 211);
+  height: fit-content;
+}
+.home-title-text-span {
+  font-size: 70%;
+  margin-right: 1%;
+}
+.home-body-margin {
+  padding: 9%;
+}
+.home-logo-margin {
+  margin-left: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 29px;
+  height: 30px;
+  width: 130px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.home-title-text {
+  margin-left: -64%;
+  font-weight: bolder;
+  font-size: large;
+}
+.home-text-p {
+  margin-top: -10px;
+  margin-left: 10px;
+  color: rgb(163, 163, 163);
+}
+.home-text-bottom {
+  color: rgb(163, 163, 163);
+  margin-left: -43%;
+}
+.home-text-bottom-span {
+  color: rgb(90, 78, 255);
+}
+.searchbox-margin {
+  height: 100px;
+}
+.jira-login {
+  width: 100%;
+  padding: 10%;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.jira-form {
+  width: 100%;
+  height: 61px;
+}
+.jira-input {
+  padding: 6px;
+  border-radius: 5px;
+  width: 100%;
+}
+.jira-label {
+  float: left;
+  padding-bottom: 6px;
+}
+.jira-anchor {
+  background-color: #f7904dcf;
+  padding: 0px 8px 0px 8px;
+  border-radius: 53px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b00ff;
+}
+.jira-btn {
+  margin-top: 15px;
+  width: 103px;
+  height: 41px;
+  font-weight: bold;
+  font-size: 17px;
+  float: left;
+  border-radius: 6px;
+  background-color: #22ad37de;
+}
+.jira-btn:hover{
+  
+}
